@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  build-release:
+    cmds:
+      - go build -ldflags "-s -w"
+  install:
+    cmds:
+      - go install
