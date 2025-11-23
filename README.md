@@ -1,6 +1,11 @@
 # bit - Bookmarks in terminal
 `bit` is a simple terminal based bookmarks manager. Simple because `bit` is storing the bookmarks in a plain JSON file, located at `~/.bookmarks.json`.
 
+## Installation
+```shell
+task install
+```
+
 ## Usage
 ```shell
 # add a bookmark
